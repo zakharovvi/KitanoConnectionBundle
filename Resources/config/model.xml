@@ -10,9 +10,6 @@
     <services>
         <!-- Filter validator -->
         <service id="kitano_connection.manager.filter_validator" class="%kitano_connection.manager.filter_validator.class%" public="false">
-            <call method="setValidator">
-                <argument type="service" id="validator" />
-            </call>
         </service>
 
         <!-- Connection manager -->
